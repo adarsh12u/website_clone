@@ -7,13 +7,13 @@ const Footer = () => {
 
       <div className=''>
         <div className='  px-footer-content'>
-          <img src={companyLogo} alt="" />
+          <img src={companyLogo} alt="image donot load" />
 
 
         </div>
       </div>
-      <div className=' w-screen  px-footer-content   mb-20 mt-20  footer:flex footer:flex-row footer:justify-between flex flex-col gap-12 md:grid md:grid-cols-2 '>
-        <div className= ' footer:w-w-20%'>
+      <div className=' w-screen  px-footer-content   mb-20 mt-20  semi-md:flex semi-md:flex-row semi-md:justify-between flex flex-col gap-12 md:grid md:grid-cols-2 '>
+        <div className= ' semi-md:w-w-20%'>
           <h1 className=' text-white text-2xl'>Contact Details</h1>
           <div className='  w-width_underline h-1  bg-footer_color'></div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <div className=' footer:w-w-20%'> 
+        <div className=' semi-md:w-w-20%'> 
           <h1 className=' text-white text-2xl'>Contact Details</h1>
           <div className='  w-width_underline h-1 bg-blue-900'></div>
           <div>
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
 
         </div>
-        <div className=' footer:w-w-20%'>
+        <div className=' semi-md:w-w-20%'>
           <h1 className=' text-white text-2xl'>Services</h1>
           <div className='  w-width_underline h-1 bg-blue-900'></div>
           <div className=' mt-5 flex flex-col gap-2'>
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
 
         </div>
-        <div className=' footer:w-w-20%'>
+        <div className=' semi-md:w-w-20%'>
           <h1 className=' text-white text-2xl'>Subscribe To Our Newsletter</h1>
           <div className='  w-width_underline h-1 bg-blue-900'></div>
           <div className='  mt-5'>
@@ -62,11 +62,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=' bg-black   px-footer-content   py-5 flex justify-between'>
+      <div className=' bg-black px-small-screen py-5 flex   flex-col semi-md:flex-row gap-5  justify-between'>
         <div>
-          <p className=' text-white'>©2024 Lemosys. All Rights Reserved Website Development Company</p>
+          <p className=' text-center text-white'>©2024 Lemosys. All Rights Reserved Website Development Company</p>
         </div>
-        <div className=' flex gap-5'>
+        <div className=' flex justify-center gap-5'>
           <p className=' text-white'>privacy policy</p>
           <p className=' text-white'>career</p>
           <p className=' text-white'>FAQ</p>

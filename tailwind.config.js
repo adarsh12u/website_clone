@@ -8,7 +8,7 @@ export default {
     screens: {
       'sm': '400px',
       'md': '800px',
-      'footer':'1050px',
+      'semi-md':'1050px',
       'lg': '1200px',
       'xl': '1376px',
       '2xl': '1536px',
@@ -48,7 +48,8 @@ export default {
          'tab-screen':'8rem',
          'screen-content':'15rem',
          'heading-spacing':'5.5rem',
-         'all-projects-spacing':'12rem'
+         'all-projects-spacing':'12rem',
+         'header':'10vh'
       }
     },
   },

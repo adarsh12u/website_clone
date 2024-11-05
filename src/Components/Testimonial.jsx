@@ -10,7 +10,7 @@ const Testimonial = () => {
         <h2 className=' subHeading-text'>Client love us & we love them</h2>
         <p className='  text-gray_for_text  text-center    text-2xl '>Our customers are our first priority and we keep them in mind with every decision we make. Hear what they have to say.</p>
       </div>
-      <div className=' w-full footer:w-80% mt-10'>
+      <div className=' w-full semi-md:w-80% mt-10'>
          
       {/* <div className=' flex gap-10'>
           {

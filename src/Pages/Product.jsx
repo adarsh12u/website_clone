@@ -8,7 +8,7 @@ const Product = () => {
   return (
     <div>
     <Header/>
-    <div className=' top-page-div'>
+    <div className=' top-page-div polygon-design'>
                <h1 className=' top-page-div-innerText'>Our Products</h1>
            </div>
 

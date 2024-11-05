@@ -20,7 +20,7 @@ const Header = () => {
                                           <Link className='   text-white text-xl hover:text-button_color transition-all  font-bold  ' onMouseEnter={() => setShowServices(true)} onMouseLeave={() => setShowServices(false)} key={index} to={value.href}>{value.name}</Link>
                                           {
                                                 showServices &&
-                                                <div className=' absolute transition-all ease-in-out delay-500 border border-black   z-50   bg-white top-16  w-44'>
+                                                <div onMouseEnter={()=>setShowServices(true)} onMouseLeave={()=>setShowServices(false)} className=' absolute   transition-all ease-in-out delay-500 border border-black   z-50   bg-white top-6  w-44'>
                                                       {cardData.map((data, index) => {
                                                             return <p key={index} className='  text-black text-base border-b border-black p-5 '>{data.content}</p>
                                                       })}
@@ -39,14 +39,14 @@ const Header = () => {
                          <RiMenu3Line color='white' size={35} onClick={()=>setMenu(!menu)}/>
                   </div>
 
-                  <div className=  {`flex py-10 transition-all delay-150 ease-linear flex-col absolute ${menu ? '  top-heading-spacing' : 'top-[-500px]'} w-screen bg-white rounded-md  items-center justify-center  gap-12  `}>
+                  <div className=  {`flex py-10 transition-all delay-150 ease-linear flex-col absolute ${menu ? ' top-header' : 'top-[-500px]'} w-screen bg-white rounded-md  items-center justify-center  gap-12  `}>
                         {
                               links.map((value, index) => {
                                     return value.name === 'Services' ? <div className=' relative'>
                                           <Link className='   text-black  text-xl hover:text-button_color transition-all  font-bold  ' onMouseEnter={() => setShowServices(true)} onMouseLeave={() => setShowServices(false)} key={index} to={value.href}>{value.name}</Link>
                                           {
                                                 showServices &&
-                                                <div className=' absolute transition-all ease-in-out delay-500   z-50   bg-white top-16  w-44'>
+                                                <div  onMouseEnter={()=>setShowServices(true)} onMouseLeave={()=>setShowServices(false)}  className=' absolute xl:hidden transition-all ease-in-out delay-500   z-50   bg-white top-16  w-44'>
                                                       {cardData.map((data, index) => {
                                                             return <p key={index} className='  text-black text-base border-b border-black p-5 '>{data.content}</p>
                                                       })}

@@ -15,7 +15,7 @@ const LetsTalk = () => {
             <div className=' mt-10 flex flex-col gap-5 justify-center mb-28 '>
                 <div>
 
-                    <h3 className='  text-center text-2xl footer:text-4xl text-white'>Got any project requirements?</h3>
+                    <h3 className='  text-center text-2xl semi-md:text-4xl text-white'>Got any project requirements?</h3>
                     <h1 className=' sm:text-5xl  xl:text-8xl text-white'>We're here to help.</h1>
                 </div>
 

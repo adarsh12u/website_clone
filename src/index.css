@@ -5,12 +5,13 @@
 *{
    margin: 0;
    padding: 0;
+   scroll-behavior: smooth;
    box-sizing: border-box !important;
 }
 
 
 .heading-tech {
-   @apply text-xl footer:text-2xl text-gray-500;
+   @apply text-xl semi-md:text-2xl text-gray-500;
  }
   
 .container-for-heading-or-subheading {
@@ -18,23 +19,23 @@
 }
 
 .main-page-container {
-    @apply  p-5 footer:p-20 flex flex-col items-center;
+    @apply   semi-md:p-20 flex flex-col items-center;
 }
 
 .subHeading-text {
-    @apply text-center text-4xl font-extrabold
+    @apply text-center text-2xl semi-md:text-4xl font-extrabold
 }
 
 .top-page-div {
-    @apply h-20 bg-orange-500 flex items-center pl-32 sticky  z-10  top-heading-spacing
+    @apply h-20 bg-orange-500 flex items-center pl-32 sticky  z-10  top-header
 }
 
 .top-page-div-innerText { 
-   @apply text-4xl font-bold text-white;
+   @apply text-2xl font-bold text-white;
 }
 
 .lightGray-page-container {
-    @apply  p-5 footer:p-20 flex bg-light_gray  flex-col items-center 
+    @apply  p-3 semi-md:p-20 flex bg-light_gray  flex-col items-center 
 }
 
 .button-rounded { 
@@ -42,5 +43,9 @@
 }
 
 .photo-text-combination-container {
-    @apply flex flex-col lg:flex-row gap-5
+    @apply flex flex-col lg:flex-row gap-10
+}
+
+.polygon-design {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 50% 100%, 0% 100%, 0% 100%);
 }

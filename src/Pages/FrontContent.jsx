@@ -4,14 +4,14 @@ import { logo } from '../data'
 const FrontContent = () => {
   return (
     <div className=' h-[90vh]  bg-front_color flex justify-center items-center  flex-col gap-5  ' >
-      <div className=' w-w-60% xl:w-w-35% flex  gap-20 flex-col '>
+      <div className=' w-w-60% xl:w-w-50% flex  gap-20 flex-col '>
         <div className=' flex flex-col gap-10'>
           <div>
 
-            <h1 className=' text-3xl md:text-6xl  footer:text-9xl text-white text-center font-semibold'>Lets Talk!
+            <h1 className=' text-3xl md:text-6xl  semi-md:text-7xl   text-white text-center font-semibold'>Lets Talk!
 
             </h1>
-            <div className=' h-1 w-24 md:h-2 md:w-40 footer:h-3  m-auto mt-3  footer:w-52 bg-button_color rounded-full'></div>
+            <div className=' h-1 w-24 md:h-2 md:w-40 semi-md:h-3  m-auto mt-3  semi-md:w-52 bg-button_color rounded-full'></div>
           </div>
 
           <p className=' text-center text-xl md:text-2xl font-semibold text-white'>Are you looking to build a Custom Web or Mobile App for your business? Let us develop it for you.</p>
