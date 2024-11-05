@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box !important;
+}
+
+
+.heading-tech {
+   @apply text-xl footer:text-2xl text-gray-500;
+ }
+  
+.container-for-heading-or-subheading {
+   @apply flex flex-col gap-10 w-2/3 justify-center items-center;
+}
+
+.main-page-container {
+    @apply  p-5 footer:p-20 flex flex-col items-center;
+}
+
+.subHeading-text {
+    @apply text-center text-4xl font-extrabold
+}
+
+.top-page-div {
+    @apply h-20 bg-orange-500 flex items-center pl-32 sticky  z-10  top-heading-spacing
+}
+
+.top-page-div-innerText { 
+   @apply text-4xl font-bold text-white;
+}
+
+.lightGray-page-container {
+    @apply  p-5 footer:p-20 flex bg-light_gray  flex-col items-center 
+}
+
+.button-rounded { 
+    @apply  px-10 bg-button_color text-black hover:bg-white hover:text-button_color transition-all border border-transparent  delay-100 hover:border hover:border-button_color rounded-full py-2  h-14
+}
+
+.photo-text-combination-container {
+    @apply flex flex-col lg:flex-row gap-5
+}
