@@ -49,7 +49,7 @@ export default {
          'screen-content':'15rem',
          'heading-spacing':'5.5rem',
          'all-projects-spacing':'12rem',
-         'header':'10vh'
+         'header':'10vh' 
       }
     },
   },
