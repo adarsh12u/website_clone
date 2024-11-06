@@ -1,12 +1,12 @@
-import React from 'react'
-import FrontContent from './FrontContent'
-import Footer from '../Components/Footer'
-import OurServices from './OurServices'
-import Technology from './Technology'
-import Clients from './Clients'
-import Testimonial from '../Components/Testimonial'
-import LetsTalk from './LetsTalk'
-import Header from '../Components/Header'
+import React from "react";
+import FrontContent from "./FrontContent";
+import Footer from "../Components/Footer";
+import OurServices from "./OurServices";
+import Technology from "./Technology";
+import Clients from "./Clients";
+import Testimonial from "../Components/Testimonial";
+import LetsTalk from "./LetsTalk";
+import Header from "../Components/Header";
 
 const Main = () => {
   return (
@@ -20,7 +20,7 @@ const Main = () => {
       <LetsTalk />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
